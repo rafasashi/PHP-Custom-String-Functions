@@ -1,5 +1,7 @@
 <?php	
 	
+	define('CHARSET', 'utf-8');
+	
 	function custom_substr($content='',$pos_start=0,$num_char=1){
 		$substr='';
 		if(function_exists('mb_substr')){
